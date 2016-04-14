@@ -1,12 +1,12 @@
 body {
-  font-family: serif;
+  font-family: "freight-display-pro", serif;
   font-size: 21px;
   line-height: 1.5;
 }
 
 .wrap {
   margin: 0 auto;
-  max-width:650px;
+  max-width:570px;
   padding: 15px;
   width: 100%;
 }
