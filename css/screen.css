@@ -1,5 +1,6 @@
 body {
   background: #fff;
+  color: #333;
   font-family: "freight-display-pro", serif;
   font-size: 21px;
   font-style: normal;
@@ -18,6 +19,7 @@ body {
 
 .memories {
   height: 150px;
+  margin-top: 30px;
 }
 
 .memories .polaroid {
@@ -89,7 +91,7 @@ body {
   top: 12px;
   color: #efefef;
   font-family: "marydale", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   left: 10px;

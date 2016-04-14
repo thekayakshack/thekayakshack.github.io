@@ -3,6 +3,7 @@ $(document).ready(function() {
   // Probably want something to happen on resize.
   $('.memories').find('.polaroid').each(function(i){
     var $polaroid = $(this);
+    var delay = i * (1000 - Math.round(Math.random() * 100));
 
     // Attach the frame (overflow hidden)
     var frame = document.createElement('div');
@@ -12,7 +13,6 @@ $(document).ready(function() {
     // Attach the image
     var image = document.createElement('img');
     $(image).attr('src', $polaroid.data('src')).appendTo($frame).load(function(){
-      var delay = Math.round(Math.random() * 1000);
       var timeout = window.setTimeout(function() {
         $frame.addClass('loaded');
         window.clearTimeout(timeout);
