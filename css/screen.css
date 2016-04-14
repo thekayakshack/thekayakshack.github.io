@@ -21,7 +21,6 @@ a:hover {
   text-decoration: none;
 }
 
-
 button {
   background: #4A90E2;
   border: none;
@@ -63,7 +62,7 @@ p {
 }
 
 .memories {
-  height: 175px;
+  height: 180px;
   margin-top: 30px;
   overflow: hidden;
 }
