@@ -84,13 +84,15 @@ body {
 }
 
 .memories .polaroid .label {
-  bottom: 7px;
+  bottom: 5px;
+  color: #cecece;
   font-family: "marydale", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  left: 50%;
+  left: 14px;
   line-height: 16px;
   position: absolute;
+  transform: rotate(-3deg);
 }
 
 .memories .polaroid:nth-child(1) {
