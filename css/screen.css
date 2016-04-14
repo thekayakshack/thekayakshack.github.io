@@ -1,0 +1,12 @@
+body {
+  font-family: serif;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width:650px;
+  padding: 15px;
+  width: 100%;
+}
