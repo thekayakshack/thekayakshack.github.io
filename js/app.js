@@ -4,10 +4,6 @@ $(document).ready(function() {
   $('.memories').find('.polaroid').each(function(i){
     var $polaroid = $(this);
 
-    // Attach the label
-    var label = document.createElement('div');
-    $(label).addClass('label').text($polaroid.data('year')).appendTo($polaroid);
-
     // Attach the frame (overflow hidden)
     var frame = document.createElement('div');
     var $frame = $(frame);
@@ -22,5 +18,9 @@ $(document).ready(function() {
         window.clearTimeout(timeout);
       }, delay);
     });
+
+    // Attach the label
+    var label = document.createElement('div');
+    $(label).addClass('label').text($polaroid.data('year')).appendTo($polaroid);
   });
 });
