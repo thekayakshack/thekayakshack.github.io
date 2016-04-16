@@ -1,6 +1,4 @@
 $(document).ready(function() {
-  // Check if $('.memories') is even visible before doing this.
-  // Probably want something to happen on resize.
   $('.memories').find('.polaroid').each(function(i){
     var $polaroid = $(this);
     var delay = i * (1000 - Math.round(Math.random() * 100));
