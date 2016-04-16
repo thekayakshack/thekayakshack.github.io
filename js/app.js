@@ -20,7 +20,9 @@ $(document).ready(function() {
     });
 
     // Attach the label
-    var label = document.createElement('div');
-    $(label).addClass('label').text($polaroid.data('year')).appendTo($polaroid);
+    if ($polaroid.data('year')) {
+      var label = document.createElement('div');
+      $(label).addClass('label').text($polaroid.data('year')).appendTo($polaroid);
+    }
   });
 });
