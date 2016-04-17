@@ -48,7 +48,7 @@ h1 {
   font-size: 42px;
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 0;
+  letter-spacing: -0.03rem;
   line-height:1;
   margin:32px 0 0;
   padding:0;
