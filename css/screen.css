@@ -204,7 +204,7 @@ p {
   }
 
   .memories .polaroid:nth-child(5) {
-    transform: translate(120px, -125px) rotate(15deg);
+    transform: translate(120px, -115px) rotate(15deg);
   }
 }
 
