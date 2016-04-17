@@ -100,6 +100,7 @@ p {
   box-shadow: 0 1px 5px 0px rgba(0,0,0,0.3);
 }
 
+.memories .polaroid,
 .memories .polaroid .frame,
 .memories .polaroid .frame img,
 .memories .polaroid .frame:after {
